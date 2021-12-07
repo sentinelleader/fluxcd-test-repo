@@ -12,6 +12,3 @@ spec:
       sourceRef:
         kind: HelmRepository
         name: podinfo
-  valuesFrom:
-    - kind: ConfigMap
-      name: podinfo-values
